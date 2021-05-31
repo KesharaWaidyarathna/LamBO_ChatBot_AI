@@ -11,3 +11,10 @@ Here is the Chatbot's main window. After loading this window, the user can chat 
 ![image](https://user-images.githubusercontent.com/45634700/120226694-4fb9e380-c265-11eb-8cf3-1ff73d81747b.png)
 
 In this interface, you can type in the small text field. Such as ‘Hello’ after entering some specific keyword, can hit on the Send button. Then Lambo bot response base on your text instantly. If the Lambo bot can’t identify what the user try to ask or the user trying to enter some symbols or unrecognized characters,
+
+
+ # Author
+**Keshara Waidyrathna**
+
+# License
+This project is licensed under the [BSD 3-Clause "New" or "Revised" License](LICENSE)
