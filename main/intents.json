@@ -1,0 +1,53 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi","Hey", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?","Hello! welcome to Lambo car sale"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Hope to see you go :(", "Have a nice day !", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "company",
+         "patterns": ["company","what is your company name", "company name"],
+         "responses": ["We are Lambo car sale!","Lambo Car sale", "You can call Lambo Car sale!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["name","what is your name", "what should I call you", "whats your name?"],
+         "responses": ["I'm Tim!","You can call me Tim.", "I'm Tim!", "I'm Tim AKA Cars With Tim."],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["hours","when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-7pm every day"],
+         "context_set": ""
+        },
+        {"tag": "car",
+         "patterns": ["What are the available cars?","Latest Car", "car", "show available","what are the cars do you have?", "Which brands do you have", "What are brands you got"],
+         "responses": ["Here what we have ","Here our collection","Here the popular car brands"],
+         "context_set": ""
+        },
+        {"tag": "contact",
+         "patterns": ["contact","How can i contact you ?","contact details", "please give me your contact details", "what is your contact details?"],
+         "responses": ["There you go","Feel free to contact us ! "],
+         "context_set": ""
+        },
+        {"tag": "color",
+         "patterns": ["What are the color that you have ?","What are the colors","color", "car colors"],
+         "responses": ["These are the colors we have ","We have following colors","These are the latest colors","These are the colors we have "],
+         "context_set": ""
+        },
+        {"tag": "brand",
+         "patterns": ["Do you have toyota cars? ","toyota brand?","toyota?", "toyota cars?", "What about Maruti?", "Maruti?", "Do you have honda vehicles?"],
+         "responses": ["We have ","We have following vehicles","We have following models"],
+         "context_set": ""
+        },
+        {"tag": "price",
+         "patterns": ["price ? ","Prices ?","prices ?", "What are the prices?", "vehicle prices" , "Price range"],
+         "responses": ["The prices are given below","Following prices are available for you"],
+         "context_set": ""
+        }
+   ]
+}
